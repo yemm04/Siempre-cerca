@@ -1,0 +1,21 @@
+{
+  "name": "siempre-cerca",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Siempre Cerca: plataforma comunitaria para alertar y buscar personas y mascotas extraviadas en Lima, Perú.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "migrate": "node server/migrate.js",
+    "seed:demo": "node server/seed-demo.js",
+    "make-admin": "node server/make-admin.js",
+    "test": "node tests/e2e.js",
+    "check": "node server/check-apis.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

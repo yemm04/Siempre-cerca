@@ -1,0 +1,28 @@
+# Dependencias y compilados
+node_modules/
+dist/
+# Secretos: NUNCA subir
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+!db/schema.sql
+*-backup*
+*_backup*
+# Pruebas locales y archivos temporales
+scratch/
+*.md
+*.log
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
